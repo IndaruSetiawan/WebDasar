@@ -65,9 +65,9 @@ nav li {
 }
 
 nav {
-    padding: 20px;
     background-color: #00a2c6;
-    position: sticky ;
+    padding: 5px;
+    position: sticky;
     top: 0;
 }
 
@@ -92,7 +92,8 @@ header {
 }
 
 @media screen and ( max-width: 1000px ) {
-    #content, aside {
+    #content, 
+    aside {
         width: 100%;
         padding: 0;
     }
